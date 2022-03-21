@@ -4,22 +4,26 @@
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
     "johnsoncodehk.volar",
+
+    // language
+    "ms-ceintl.vscode-language-pack-zh-hans",
     
+    // theme & icon
+    "antfu.icons-carbon",
+    "dracula-theme.theme-dracula",
+    "pkief.material-icon-theme",
+
     // personal
     "abusaidm.html-snippets",
     "alefragnani.project-manager",
-    "antfu.icons-carbon",
     "bradlc.vscode-tailwindcss",
     "christian-kohler.path-intellisense",
-    "dracula-theme.theme-dracula",
     "eamodio.gitlens",
     "ecmel.vscode-html-css",
     "formulahendry.auto-rename-tag",
     "mhutchie.git-graph",
-    "ms-ceintl.vscode-language-pack-zh-hans",
     "ms-vsliveshare.vsliveshare",
     "oderwat.indent-rainbow",
-    "pkief.material-icon-theme",
     "stylelint.vscode-stylelint",
     "wayou.vscode-todo-highlight",
   ]
