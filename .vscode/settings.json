@@ -1,0 +1,88 @@
+{
+  // necessary
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true, //  this allows ESLint to auto fix on save
+    "source.organizeImports": false
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true
+  },
+  "eslint.quiet": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "prettier.enable": false,
+
+  // personal
+  "editor.accessibilitySupport": "off",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontFamily": "Fira Code, monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 13.5,
+  "editor.glyphMargin": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 24,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.experimental.fileNesting.enabled": true,
+  "explorer.experimental.fileNesting.expand": false,
+  "explorer.experimental.fileNesting.patterns": {
+    "*.ts": "$(capture).js, $(capture).*.ts",
+    "*.js": "$(capture).js.map, $(capture).min.js, $(capture).d.ts",
+    "*.jsx": "$(capture).js",
+    "*.tsx": "$(capture).ts",
+    ".env": "*.env, .env.*, env.d.ts",
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "dockerfile": ".dockerignore, dockerfile*",
+    "package.json": "package-lock.json, .npmrc, yarn.lock, .yarnrc, pnpm-lock.yaml",
+    "tsconfig.json": "tsconfig.*.json"
+  },
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.ignoreRecommendations": true,
+  "files.simpleDialog.enable": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "Dracula",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.smoothScrolling": true,
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 10,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "gitlens.views.repositories.files.layout": "tree"
+}
