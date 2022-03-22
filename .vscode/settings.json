@@ -54,9 +54,10 @@
     "*.jsx": "$(capture).js",
     "*.tsx": "$(capture).ts",
     ".env": "*.env, .env.*, env.d.ts",
+    ".eslintrc": ".eslint*",
     ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
     "dockerfile": ".dockerignore, dockerfile*",
-    "package.json": "package-lock.json, .npmrc, yarn.lock, .yarnrc, pnpm-lock.yaml",
+    "package.json": "package-lock.json, .npmrc, yarn.lock, .yarnrc, yarn-error.log, pnpm-lock.yaml",
     "tsconfig.json": "tsconfig.*.json"
   },
   "extensions.autoUpdate": "onlyEnabledExtensions",
