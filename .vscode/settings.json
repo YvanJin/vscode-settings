@@ -26,7 +26,8 @@
     "jsonc",
     "typescript",
     "typescriptreact",
-    "vue"
+    "vue",
+    "yaml",
   ],
   "prettier.enable": false,
 
