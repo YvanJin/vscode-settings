@@ -3,7 +3,7 @@
     // necessary
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
-    "johnsoncodehk.volar",
+    "Vue.volar",
     
     // language
     "ms-ceintl.vscode-language-pack-zh-hans",
