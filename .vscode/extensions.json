@@ -3,7 +3,7 @@
     // necessary
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
-    "Vue.volar",
+    "VisualStudioExptTeam.vscodeintellicode",
     
     // language
     "ms-ceintl.vscode-language-pack-zh-hans",
@@ -22,11 +22,13 @@
     "ecmel.vscode-html-css",
     "formulahendry.auto-rename-tag",
     "lokalise.i18n-ally",
-    "mhutchie.git-graph",
     "ms-vsliveshare.vsliveshare",
     "oderwat.indent-rainbow",
+    "ritwickdey.LiveServer",
     "stylelint.vscode-stylelint",
+    "techer.open-in-browser",
     "usernamehw.errorlens",
+    "Vue.volar",
     "wayou.vscode-todo-highlight",
   ]
 }
